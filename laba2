@@ -1,0 +1,52 @@
+a_or_b = input("a or b:")
+
+def a(a):
+    g=a.split()
+    for i in g:
+        if len(i) < 3:
+            g.pop(g.index(i))
+        i.strip()
+        print(i)
+    key=str.lower
+    print(g)
+
+
+def b(a):
+    print('а:', a.count('а'))
+    print('б:', a.count('б'))
+    print('в:', a.count('в'))
+    print('г:', a.count('г'))
+    print('ґ:', a.count('ґ'))
+    print('д:', a.count('д'))
+    print('е:', a.count('е'))
+    print('є:', a.count('є'))
+    print('ж:', a.count('ж'))
+    print('з:', a.count('з'))
+    print('и:', a.count('и'))
+    print('і:', a.count('і'))
+    print('ї:', a.count('ї'))
+    print('й:', a.count('й'))
+    print('к:', a.count('к'))
+    print('л:', a.count('л'))
+    print('м:', a.count('м'))
+    print('н:', a.count('н'))
+    print('о:', a.count('о'))
+    print('п:', a.count('п'))
+    print('р:', a.count('р'))
+    print('с:', a.count('с'))
+    print('т:', a.count('т'))
+    print('у:', a.count('у'))
+    print('ф:', a.count('ф'))
+    print('х:', a.count('х'))
+    print('ц:', a.count('ц'))
+    print('ч:', a.count('ч'))
+    print('ш:', a.count('ш'))
+    print('щ:', a.count('щ'))
+    print('ь:', a.count('ь'))
+    print('ю:', a.count('ю'))
+    print('я:', a.count('я'))
+
+if a_or_b == "a":
+    a(input("ENTER TEXT:"))
+elif a_or_b == "b":
+    b(input("ENTER TEXT:"))
